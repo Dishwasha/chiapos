@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/ProofOfSpace",
+      "args": [
+        "-k",
+        "32",
+        "-r",
+        "1",
+        "-t",
+        "/tmp/plots_temp",
+        "-f",
+        "plot.dat",
+        "-i",
+        "43ae95c60c7d09527ffefcd257a990daab0c366ba903d0f131e5fe271936ab35",
+        "-m",
+        "a783b5ad8ee7e58823ab11d7bddcd74df64f122cef242893893d1b3d478264bb8a6790a83b1f775891f9c37a3512486fa4a8f141a06a7fdc96be19b0f3c2bf5a59bbcb01de6d5cf17ad12f2a2a5b77122475939ddb0cb15e2ffeeb8479c3ad806f9efd24666694d1996361dce987e9aeee8c78584a85a0c1c2411da9ca6d84df",
+        "create"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
